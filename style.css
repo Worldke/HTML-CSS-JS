@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.nav{
+  background-color: #333;
+  overflow: hidden;
+  height:60px;
+  width:100%;
+}
+.nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden
+}
+.nav li{
+  float: left;
+  margin-left:75px;
+}
+.nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover{
+  background-color: #111;
+}
+.logo{
+  float: left;
+  margin: 2px;
+
+
+}
+.memo{
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Workers.jpg");
+  background-position: center;
+  background-size:cover;
+  height:900px;
+  width:auto;
+}
+.memo h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 600px;
+  margin:5px;
+  }
+
+.memo button{
+  background-color: #6BBAA7;
+  color: white;
+  padding: 14px 20px;
+  margin-left:350px;
+  margin-top:60px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  height:50px;
+  display:flex;
+  justify-content:center;
+}
+.memo button a:hover{
+  opacity: 1;
+}
+.memo button a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  
+  
+
+
+}
+.footer{
+  background-color:#6C648B;
+  height:100vh;
+  width:auto;
+  
+  
+}
+.data{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+
+
+}
+.magic{
+  height: 900px;
+  background-color:#666;
+  width:auto;
+  
+  
+}
+
+
+@media(max-width:600px))
+
+
